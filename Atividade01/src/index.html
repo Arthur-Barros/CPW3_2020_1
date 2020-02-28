@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/estilos.scss">
     <title>Validação</title>
 </head>
+
 <body>
 
     <div id="banner">
@@ -13,15 +14,15 @@
     </div>
 
     <div id="formularioValidador">
-       
-            <label for="numero">Digite um número:</label>
-            <input type="text" placeholder="digite um número">
 
-            <button type="button"  onsubmit="">CPF</button>
-            <button type="submit">CNPJ</button>
-       
+        <label for="numero">Digite um número:</label>
+        <input type="text" id="numerodigitado" placeholder="digite um número">
+
+        <button onclick="validarcpf()">CPF</button>
+
     </div>
 
     <script src="./js/index.js"></script>
 </body>
+
 </html>
