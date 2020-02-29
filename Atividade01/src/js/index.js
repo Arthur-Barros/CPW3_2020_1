@@ -1,9 +1,14 @@
-import PessoaView from './view/PessoaView';
+import CpfView from './view/CpfView';
+import CnpjView from './view/CnpjView';
 
-let view = new PessoaView();
+let view = new CpfView();
+let vieew = new CnpjView();
 
-
-window.validarcpf = event => {
-    event.preventDefault()
-    view.validarcpf(valordigitado);
+window.validarCpf = () => {
+    view.validarCpf();
 }
+
+window.validarCNPJ = () => {
+    vieew.validarCNPJ();
+}
+
