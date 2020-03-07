@@ -1,0 +1,22 @@
+{
+    "clientes": [
+        {
+            "nome": "Arthur Barros",
+            "cpf": "86657110235",
+            "telefone": "(67) 9999-9999",
+            "endereco":"Rua 6 Março" 
+        },
+        {
+            "nome": "Lucas Paniago",
+            "cpf": "67937667249",
+            "telefone": "(67) 9999-8787",
+            "endereco":"Rua 8 Março" 
+        },
+        {
+            "nome": "Joice Barros",
+            "cpf": "74594177859",
+            "telefone": "(67) 9922-8787",
+            "endereco":"Rua 10 Março" 
+        }
+    ]
+}
