@@ -1,25 +1,36 @@
-import express from 'express';
+import express, { urlencoded } from 'express';
 import path from 'path';
+import bodyParser from 'body-parser';
+
+import routasView from './routes/view';
 
 const app = express();
+
 
 /**
  * Configuração das páginas
  */
-
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
+
 /**
- * Criando a rota da páginas inicial
- * 
+ * Configuração dos recursos estáticos
  */
-app.get('/', (req, res) => res.render('index'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 /**
- * Criando a rota da página de clientes
+ * Configuração do Body-Parser
  */
-app.get('/clientes', (req, res) => res.render('clientes'));
+app.use(bodyParser.urlencoded({ extended: false }));
+
+
+
+/**
+ * Rotas de view
+ */
+app.use('/', routasView);
 
 export default app;
+

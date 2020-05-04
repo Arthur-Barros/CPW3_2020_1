@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/server.js",
+    "sass": "node-sass src/public/styles/estilos.scss src/public/styles/estilos.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "pug": "^2.0.4"
   },
   "devDependencies": {
+    "node-sass": "^4.14.0",
     "nodemon": "^2.0.3"
   }
 }
