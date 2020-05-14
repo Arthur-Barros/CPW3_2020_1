@@ -25,7 +25,7 @@ body {
   #banner p {
     font-family: "negrito"; }
 
-.imgFut {
+#imgFut {
   background-image: url(../img/Arthur.jpg);
   height: 500px;
   background-position: center;
@@ -36,7 +36,7 @@ body {
   border-radius: 5px;
   box-shadow: 5px 5px 10px #777777; }
 
-.home {
+#home {
   border-radius: 5px;
   padding: 10px;
   margin: 20px 0px 20px 0px;
@@ -72,28 +72,27 @@ body {
   padding: 10px; }
 
 #biografia {
-  display: table-cell;
-  padding-right: 10px;
   text-align: justify;
-  width: 80%;
-  font-size: 80%;
   box-shadow: 5px 5px 10px #777777;
-  border-radius: 5px; }
-  #biografia * {
+  border-radius: 5px;
+  text-align: center; }
+  #biografia p {
+    text-align: left;
+    text-align: justify;
+    font-family: "padrao";
+    font-size: 100%;
     padding: 10px; }
-
-#imgArthur {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 50px;
-  width: 100%; }
-  #imgArthur img {
-    width: 100%;
+  #biografia h1 {
+    font-size: 100%;
+    text-align: left;
+    padding: 10px; }
+  #biografia h2 {
+    font-size: 100%; }
+  #biografia img {
+    width: 20%;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px #777777; }
-  #imgArthur p {
-    text-align: center;
-    font-family: "negrito"; }
+    box-shadow: 5px 5px 10px #777777;
+    margin: 10px; }
 
 #portfolio {
   margin-top: 20px;
@@ -101,8 +100,7 @@ body {
   text-align: justify; }
   #portfolio #algebra {
     display: table-cell;
-    padding: 10px;
-    width: 50%; }
+    padding: 10px; }
     #portfolio #algebra img {
       min-height: 100%;
       box-shadow: 5px 5px 10px #777777;
@@ -110,8 +108,7 @@ body {
       max-width: 50%; }
   #portfolio #super {
     display: table-cell;
-    padding: 10px;
-    width: 50%; }
+    padding: 10px; }
     #portfolio #super img {
       min-height: 100%;
       box-shadow: 5px 5px 10px #777777;
@@ -124,7 +121,6 @@ body {
   #portfolio1 #compra {
     display: table-cell;
     padding: 10px;
-    width: 50%;
     font-family: "negrito"; }
     #portfolio1 #compra img {
       min-height: 153%;
@@ -134,12 +130,13 @@ body {
   #portfolio1 #mergeSort {
     display: table-cell;
     padding: 10px;
-    width: 50%;
-    font-family: "negrito"; }
+    font-family: "negrito";
+    width: 50%; }
     #portfolio1 #mergeSort img {
       min-height: 100%;
       box-shadow: 5px 5px 10px #777777;
-      min-width: 100%; }
+      min-width: 100%;
+      max-width: 100%; }
 
 .contato {
   font-family: "negrito";
@@ -162,18 +159,86 @@ body {
   font-size: 80%;
   font-family: "negrito"; }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
   #banner {
     width: 100%; }
     #banner h1 {
-      font-size: 50%; }
+      font-size: 350%; }
     #banner p {
       font-family: "negrito";
-      font-size: 500%; }
+      font-size: 150%; }
+  #home {
+    font-size: 80%;
+    margin: 15px; }
   #menu ul li {
     font-size: 200%; }
+  #conteudo {
+    margin: 20px; }
   #biografia {
-    width: 50%;
-    font-size: 30%; }
-  .contato * {
-    display: block; } }
+    width: 100%;
+    text-align: center;
+    padding: 0px; }
+    #biografia p {
+      text-align: left;
+      text-align: justify;
+      font-family: "padrao";
+      font-size: 80%;
+      padding: 15px; }
+    #biografia h1 {
+      font-size: 80%;
+      text-align: left;
+      padding: 10px; }
+    #biografia h2 {
+      font-size: 80%; }
+    #biografia img {
+      width: 30%;
+      border-radius: 5px;
+      box-shadow: 5px 5px 10px #777777; }
+  .contato {
+    text-align: center; }
+    .contato h2 {
+      font-size: 200%; }
+    .contato #facebook, .contato #whats, .contato #insta, .contato #email {
+      display: block;
+      text-align: center;
+      width: 100%; }
+    .contato #alinhar {
+      display: block;
+      text-align: center;
+      font-size: 200%; }
+  #portfolio {
+    font-size: 80%; }
+    #portfolio #algebra {
+      margin: auto;
+      display: block; }
+      #portfolio #algebra img {
+        box-shadow: 5px 5px 10px #777777;
+        min-width: 100%;
+        max-width: 50%; }
+    #portfolio #super {
+      display: block;
+      margin: auto; }
+      #portfolio #super img {
+        min-width: 100%;
+        max-width: 100%; }
+  #portfolio1 {
+    font-size: 80%; }
+    #portfolio1 #compra {
+      display: block;
+      margin: auto; }
+      #portfolio1 #compra img {
+        min-height: 153%;
+        box-shadow: 5px 5px 10px #777777;
+        min-width: 100%;
+        max-width: 100%; }
+    #portfolio1 #mergeSort {
+      margin: auto; }
+      #portfolio1 #mergeSort p {
+        font-size: 300%; }
+      #portfolio1 #mergeSort img {
+        min-height: 100%;
+        box-shadow: 5px 5px 10px #777777;
+        min-width: 100%; }
+  #rodape {
+    padding: 20px;
+    font-size: 150%; } }
