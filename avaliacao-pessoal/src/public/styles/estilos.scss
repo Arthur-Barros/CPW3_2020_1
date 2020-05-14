@@ -1,0 +1,265 @@
+@import 'fontes';
+@import 'cores';
+
+body{
+    margin: 0;
+}
+ 
+#banner{ 
+    background-color: $cor-banner;
+    color:white;
+    text-align: center;
+    padding: 20px 0px 10px 0px; 
+
+    h1{
+        font-family: $fonte-decorativa;
+        font-size: 250%;   
+        text-shadow: 1px 1px black;
+    }
+ 
+    p{ 
+        font-family: $fonte-negrito;  
+
+    }
+}
+
+.imgFut {
+    background-image: url(../img/Arthur.jpg); 
+    height: 500px; 
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #777777;  
+    
+} 
+  
+.home{
+    border-radius: 5px; 
+    padding: 10px;
+    margin: 20px 0px 20px 0px; 
+    box-shadow: 5px 5px 10px #777777; 
+    font-family: $fonte-padrao; 
+    text-align: center;
+    font-size: 100%;
+    
+}
+
+#centro{
+    display:inline;
+    font-family: $fonte-padrao;
+
+}
+
+#menu{
+    background-color: $cor-menu;
+    color: white;
+    padding: 20px 0px 10px 20px;
+    text-align: center;
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+       
+        a {
+            text-decoration: none;
+            color: white;
+            &:hover{
+                color: $cor-hover;
+            }
+        }
+
+        li {
+            margin-bottom: 7px;
+            display: inline;
+            padding: 20px;
+            font-size: 100%;
+        }
+    }
+}
+
+
+#conteudo{
+    
+    padding:10px;
+   
+}    
+
+#biografia{
+    display: table-cell;
+    padding-right: 10px; 
+    text-align: justify;
+    width: 80%;
+    font-size: 80%;
+    box-shadow: 5px 5px 10px #777777; 
+    border-radius: 5px;
+    *{
+        padding: 10px;  
+    }
+}     
+
+#imgArthur{         
+    display: table-cell;    
+    vertical-align:middle; 
+    padding: 50px;
+    width: 100%; 
+    img{      
+        width: 100%;
+        border-radius: 5px;       
+        box-shadow: 5px 5px 10px #777777;
+    }   
+
+    p{
+        text-align: center;
+        font-family: $fonte-negrito;
+        
+    }
+}     
+ 
+#portfolio{
+
+    margin-top: 20px; 
+    font-family: $fonte-negrito;  
+    text-align: justify;
+    #algebra{ 
+        
+        display: table-cell;
+        padding: 10px;
+        width: 50%; 
+        img{   
+        
+            min-height: 100%;       
+            box-shadow: 5px 5px 10px #777777; 
+            min-width: 100%; 
+            max-width: 50%;
+        } 
+    
+    }
+  
+    #super{ 
+        display: table-cell;
+        padding: 10px;
+        width: 50%; 
+       
+        img{  
+             
+            min-height: 100%;  
+            box-shadow: 5px 5px 10px #777777;  
+            min-width: 100%; 
+            max-width: 100%;
+        }
+    } 
+}
+
+#portfolio1{
+    margin-top: 20px; 
+    margin-bottom: 10px;
+   
+    #compra{
+        display: table-cell; 
+        padding: 10px; 
+        width: 50%;
+        font-family: $fonte-negrito; 
+         
+        img{   
+            
+            min-height: 153%;   
+            box-shadow: 5px 5px 10px #777777;    
+            min-width: 100%;
+            max-width: 100%;
+        }
+    }
+ 
+    #mergeSort{
+
+        display: table-cell;
+        padding: 10px;
+        width: 50%;  
+        font-family: $fonte-negrito;
+        
+        img{   
+             
+            min-height: 100%; 
+            box-shadow: 5px 5px 10px #777777;  
+            min-width: 100%;   
+           
+        } 
+
+    }
+ 
+}
+
+.contato{
+    font-family: $fonte-negrito; 
+    box-shadow: 5px 5px 10px #777777;
+    padding: 10px;
+    border-radius: 5px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    #facebook, #whats, #insta, #email{ 
+        display: table-cell;
+    }
+  
+    #alinhar{
+        display: table-cell;
+        vertical-align: middle;
+        padding: 20px;
+    }
+  
+}
+ 
+
+#rodape{
+    background-color: $cor-rodape;
+    color: white;
+    padding: 20px;
+    font-size: 80%;
+    font-family: $fonte-negrito;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #banner{ 
+        
+        width: 100%;
+    
+        h1{
+        
+            font-size: 50%;  
+           
+        }
+     
+        p{ 
+            font-family: $fonte-negrito;  
+            font-size: 500%;
+        }
+    }
+
+    #menu{
+        
+    
+        ul {
+            
+            li {
+                font-size: 200%;
+            }
+        }
+    }
+ 
+
+    #biografia{
+        width: 50%; 
+        font-size: 30%;
+    }     
+
+    .contato{
+       
+        *{
+            display: block;
+        }
+    }
+
+}

@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'padrao';
+  src: url(../fonts/Montserrat-Regular.ttf); }
+
+@font-face {
+  font-family: 'negrito';
+  src: url(../fonts/Montserrat-Bold.ttf); }
+
+@font-face {
+  font-family: 'decorativa';
+  src: url(../fonts/BowlbyOneSC-Regular.ttf); }
+
+body {
+  margin: 0; }
+
+#banner {
+  background-color: #81cfe0;
+  color: white;
+  text-align: center;
+  padding: 20px 0px 10px 0px; }
+  #banner h1 {
+    font-family: "decorativa";
+    font-size: 250%;
+    text-shadow: 1px 1px black; }
+  #banner p {
+    font-family: "negrito"; }
+
+.imgFut {
+  background-image: url(../img/Arthur.jpg);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #777777; }
+
+.home {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0px 20px 0px;
+  box-shadow: 5px 5px 10px #777777;
+  font-family: "padrao";
+  text-align: center;
+  font-size: 100%; }
+
+#centro {
+  display: inline;
+  font-family: "padrao"; }
+
+#menu {
+  background-color: #22313f;
+  color: white;
+  padding: 20px 0px 10px 20px;
+  text-align: center; }
+  #menu ul {
+    list-style: none;
+    padding-left: 0; }
+    #menu ul a {
+      text-decoration: none;
+      color: white; }
+      #menu ul a:hover {
+        color: #c5eff7; }
+    #menu ul li {
+      margin-bottom: 7px;
+      display: inline;
+      padding: 20px;
+      font-size: 100%; }
+
+#conteudo {
+  padding: 10px; }
+
+#biografia {
+  display: table-cell;
+  padding-right: 10px;
+  text-align: justify;
+  width: 80%;
+  font-size: 80%;
+  box-shadow: 5px 5px 10px #777777;
+  border-radius: 5px; }
+  #biografia * {
+    padding: 10px; }
+
+#imgArthur {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 50px;
+  width: 100%; }
+  #imgArthur img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #777777; }
+  #imgArthur p {
+    text-align: center;
+    font-family: "negrito"; }
+
+#portfolio {
+  margin-top: 20px;
+  font-family: "negrito";
+  text-align: justify; }
+  #portfolio #algebra {
+    display: table-cell;
+    padding: 10px;
+    width: 50%; }
+    #portfolio #algebra img {
+      min-height: 100%;
+      box-shadow: 5px 5px 10px #777777;
+      min-width: 100%;
+      max-width: 50%; }
+  #portfolio #super {
+    display: table-cell;
+    padding: 10px;
+    width: 50%; }
+    #portfolio #super img {
+      min-height: 100%;
+      box-shadow: 5px 5px 10px #777777;
+      min-width: 100%;
+      max-width: 100%; }
+
+#portfolio1 {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  #portfolio1 #compra {
+    display: table-cell;
+    padding: 10px;
+    width: 50%;
+    font-family: "negrito"; }
+    #portfolio1 #compra img {
+      min-height: 153%;
+      box-shadow: 5px 5px 10px #777777;
+      min-width: 100%;
+      max-width: 100%; }
+  #portfolio1 #mergeSort {
+    display: table-cell;
+    padding: 10px;
+    width: 50%;
+    font-family: "negrito"; }
+    #portfolio1 #mergeSort img {
+      min-height: 100%;
+      box-shadow: 5px 5px 10px #777777;
+      min-width: 100%; }
+
+.contato {
+  font-family: "negrito";
+  box-shadow: 5px 5px 10px #777777;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .contato #facebook, .contato #whats, .contato #insta, .contato #email {
+    display: table-cell; }
+  .contato #alinhar {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px; }
+
+#rodape {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  font-size: 80%;
+  font-family: "negrito"; }
+
+@media only screen and (max-width: 600px) {
+  #banner {
+    width: 100%; }
+    #banner h1 {
+      font-size: 50%; }
+    #banner p {
+      font-family: "negrito";
+      font-size: 500%; }
+  #menu ul li {
+    font-size: 200%; }
+  #biografia {
+    width: 50%;
+    font-size: 30%; }
+  .contato * {
+    display: block; } }
