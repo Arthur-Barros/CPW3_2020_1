@@ -117,26 +117,25 @@ body {
 
 #portfolio1 {
   margin-top: 20px;
-  margin-bottom: 10px; }
+  font-family: "negrito";
+  text-align: justify; }
   #portfolio1 #compra {
     display: table-cell;
-    padding: 10px;
-    font-family: "negrito"; }
+    padding: 10px; }
     #portfolio1 #compra img {
-      min-height: 153%;
+      min-height: 50%;
+      max-height: 80%;
       box-shadow: 5px 5px 10px #777777;
       min-width: 100%;
-      max-width: 100%; }
+      max-width: 50%; }
   #portfolio1 #mergeSort {
     display: table-cell;
-    padding: 10px;
-    font-family: "negrito";
-    width: 50%; }
+    padding: 10px; }
     #portfolio1 #mergeSort img {
-      min-height: 100%;
+      min-height: 50%;
       box-shadow: 5px 5px 10px #777777;
       min-width: 100%;
-      max-width: 100%; }
+      max-width: 50%; }
 
 .contato {
   font-family: "negrito";
@@ -206,39 +205,35 @@ body {
       display: block;
       text-align: center;
       font-size: 200%; }
-  #portfolio {
-    font-size: 80%; }
-    #portfolio #algebra {
-      margin: auto;
-      display: block; }
-      #portfolio #algebra img {
-        box-shadow: 5px 5px 10px #777777;
-        min-width: 100%;
-        max-width: 50%; }
-    #portfolio #super {
-      display: block;
-      margin: auto; }
-      #portfolio #super img {
-        min-width: 100%;
-        max-width: 100%; }
-  #portfolio1 {
-    font-size: 80%; }
-    #portfolio1 #compra {
-      display: block;
-      margin: auto; }
-      #portfolio1 #compra img {
-        min-height: 153%;
-        box-shadow: 5px 5px 10px #777777;
-        min-width: 100%;
-        max-width: 100%; }
-    #portfolio1 #mergeSort {
-      margin: auto; }
-      #portfolio1 #mergeSort p {
-        font-size: 300%; }
-      #portfolio1 #mergeSort img {
-        min-height: 100%;
-        box-shadow: 5px 5px 10px #777777;
-        min-width: 100%; }
+  #portfolio #algebra {
+    margin: auto;
+    display: block; }
+    #portfolio #algebra img {
+      box-shadow: 5px 5px 10px #777777;
+      min-width: 100%;
+      max-width: 50%; }
+  #portfolio #super {
+    display: block;
+    margin: auto; }
+    #portfolio #super img {
+      min-width: 100%;
+      max-width: 100%; }
+  #portfolio1 #compra {
+    display: block;
+    margin: auto; }
+    #portfolio1 #compra img {
+      min-height: 153%;
+      box-shadow: 5px 5px 10px #777777;
+      min-width: 100%;
+      max-width: 100%; }
+  #portfolio1 #mergeSort {
+    margin: auto; }
+    #portfolio1 #mergeSort p {
+      font-size: 200%; }
+    #portfolio1 #mergeSort img {
+      min-height: 100%;
+      box-shadow: 5px 5px 10px #777777;
+      min-width: 100%; }
   #rodape {
     padding: 20px;
     font-size: 150%; } }

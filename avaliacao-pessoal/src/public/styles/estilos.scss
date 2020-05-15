@@ -150,7 +150,7 @@ body{
         display: table-cell;
         padding: 10px;
         
-       
+    
         img{  
              
             min-height: 100%;  
@@ -162,20 +162,23 @@ body{
 }
 
 #portfolio1{
-    margin-top: 20px; 
-    margin-bottom: 10px;
    
-    #compra{
+    margin-top: 20px; 
+    font-family: $fonte-negrito;  
+    text-align: justify;
+    #compra{ 
         display: table-cell; 
-        padding: 10px; 
-        font-family: $fonte-negrito; 
-         
-        img{   
+        padding: 10px;
+
+        img{    
             
-            min-height: 153%;   
-            box-shadow: 5px 5px 10px #777777;    
-            min-width: 100%;
-            max-width: 100%;
+            min-height: 50%;
+            max-height: 80%;        
+            box-shadow: 5px 5px 10px #777777; 
+            min-width: 100%; 
+            max-width: 50%;
+             
+           
         }
     }
  
@@ -183,14 +186,12 @@ body{
 
         display: table-cell;
         padding: 10px;
-        font-family: $fonte-negrito;
-        width: 50%;
-        img{   
+        img{    
              
-            min-height: 100%; 
-            box-shadow: 5px 5px 10px #777777;  
-            min-width: 100%;   
-            max-width: 100%;
+            min-height: 50%;       
+            box-shadow: 5px 5px 10px #777777; 
+            min-width: 100%; 
+            max-width: 50%;
         } 
 
     }
@@ -324,7 +325,7 @@ body{
           
     #portfolio{
 
-        font-size: 80%; 
+     
   
         #algebra{ 
             margin: auto;
@@ -354,7 +355,7 @@ body{
 
     #portfolio1{
         
-        font-size:80%;
+       
 
         #compra{
             display: block; 
@@ -372,10 +373,11 @@ body{
         #mergeSort{
 
             margin: auto;
-
+ 
             p{
-                font-size: 300%;
-            }              
+                font-size: 200%;
+            }
+
             img{   
                 
                 min-height: 100%; 
