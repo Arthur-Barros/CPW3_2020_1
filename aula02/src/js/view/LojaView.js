@@ -12,14 +12,12 @@ export default class LojaView{
     renderizarTabelasDeClientes (){
         let clientes = this.lojaCtrl.recuperarClientes();
 
-        let tabela = document.createElement('table');
-
         let cabecalho = this.criarCabecalhoTabelaClientes();
         let corpo = this.criarCabecalhoTabelaClientes(clientes);
 
 
-        tabela.insertAdjacentHTML('beforeend',cabecalho);
-        tabela.insertAdjacentHTML('beforeend',corpo);
+        let tabela = `<table>${cabecalho}${corpo}<table>`;
+
 
         document.getElementById('visualizacaoClientes').innerHTML = tabela;
 
