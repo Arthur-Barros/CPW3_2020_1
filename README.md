@@ -28,6 +28,13 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
+### Como utilizar Aula01
+Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
+- [NodeJs](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
+
+---
+
 ### Como baixar o projeto Aula01
 
 ```bash
@@ -67,6 +74,13 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 - [Parcel](https://parceljs.org/)
 - [Sass](https://sass-lang.com/)
 - [NodeJs](https://nodejs.org/en/)
+
+---
+
+## Como utilizar Aula02
+Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
+- [NodeJs](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
 
 ---
 
@@ -112,6 +126,13 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
+## Como utilizar Atividade01
+Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
+- [NodeJs](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
+
+---
+
 ### Como baixar o projeto Atividade01
 
 ```bash
@@ -151,6 +172,13 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 - [Parcel](https://parceljs.org/)
 - [Sass](https://sass-lang.com/) 
 - [NodeJs](https://nodejs.org/en/)
+
+---
+
+## Como utilizar Atividade02
+Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
+- [NodeJs](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
 
 ---
 
@@ -198,6 +226,13 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
+## Como utilizar Exemplo-express
+Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
+- [NodeJs](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
+
+---
+
 ### Como baixar o projeto Exemplo-express
 
 ```bash
@@ -220,4 +255,4 @@ $ npm run sass
 
 ---
 
-Desenvolvido por **Arthur Barros**
+Desenvolvido por **Arthur Barros** [Entre em contato](https://www.linkedin.com/in/arthur-barros-/)
