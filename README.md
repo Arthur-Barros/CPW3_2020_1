@@ -23,7 +23,8 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 - [Css](https://www.w3schools.com/Css/)
 - [Html](https://www.w3schools.com/html/)
 - [Parcel](https://parceljs.org/)
-- [Sass](https://sass-lang.com/) 
+- [Sass](https://sass-lang.com/)
+- [NodeJs](https://nodejs.org/en/)
 
 ---
 
@@ -64,7 +65,8 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 - [Css](https://www.w3schools.com/Css/)
 - [Html](https://www.w3schools.com/html/)
 - [Parcel](https://parceljs.org/)
-- [Sass](https://sass-lang.com/) 
+- [Sass](https://sass-lang.com/)
+- [NodeJs](https://nodejs.org/en/)
 
 ---
 
@@ -106,6 +108,7 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 - [Html](https://www.w3schools.com/html/)
 - [Parcel](https://parceljs.org/)
 - [Sass](https://sass-lang.com/) 
+- [NodeJs](https://nodejs.org/en/)
 
 ---
 
@@ -147,6 +150,7 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 - [Html](https://www.w3schools.com/html/)
 - [Parcel](https://parceljs.org/)
 - [Sass](https://sass-lang.com/) 
+- [NodeJs](https://nodejs.org/en/)
 
 ---
 
@@ -190,6 +194,7 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 - [Pug](https://pugjs.org/api/getting-started.html)
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 - [Babel](https://babeljs.io/)
+- [NodeJs](https://nodejs.org/en/)
 
 ---
 
