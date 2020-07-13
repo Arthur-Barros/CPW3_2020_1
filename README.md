@@ -1,9 +1,9 @@
 # **Indice**
-[Aula01](#-aula-01)
-[Aula02](#-aula-02)
-[Atividade01](#-atividade01)
-[Atividade02](#-atividade02)
-[Exemplo-express](#-exemplo-express)
+- [Aula01](#-aula-01)
+- [Aula02](#-aula-02)
+- [Atividade01](#-atividade01)
+- [Atividade02](#-atividade02)
+- [Exemplo-express](#-exemplo-express)
 
 ---
 
