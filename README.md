@@ -35,7 +35,7 @@ Para executar essa aplicação você vai precisar dos seguintes softwares instal
 
 ---
 
-### Como baixar o projeto Aula01
+### Como rodar o projeto Aula01
 
 ```bash
 # Clonar repositório
@@ -84,7 +84,7 @@ Para executar essa aplicação você vai precisar dos seguintes softwares instal
 
 ---
 
-### Como baixar o projeto Aula02
+### Como rodar o projeto Aula02
 
 ```bash
 # Clonar repositório
@@ -133,7 +133,7 @@ Para executar essa aplicação você vai precisar dos seguintes softwares instal
 
 ---
 
-### Como baixar o projeto Atividade01
+### Como rodar o projeto Atividade01
 
 ```bash
 # Clonar repositório
@@ -182,7 +182,7 @@ Para executar essa aplicação você vai precisar dos seguintes softwares instal
 
 ---
 
-### Como baixar o projeto Atividade02
+### Como rodar o projeto Atividade02
 
 ```bash
 # Clonar repositório
@@ -233,7 +233,7 @@ Para executar essa aplicação você vai precisar dos seguintes softwares instal
 
 ---
 
-### Como baixar o projeto Exemplo-express
+### Como rodar o projeto Exemplo-express
 
 ```bash
 # Clonar repositório
