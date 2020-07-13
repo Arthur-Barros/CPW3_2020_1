@@ -77,7 +77,7 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
-## Como utilizar Aula02
+### Como utilizar Aula02
 Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
@@ -126,7 +126,7 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
-## Como utilizar Atividade01
+### Como utilizar Atividade01
 Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
@@ -175,7 +175,7 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
-## Como utilizar Atividade02
+### Como utilizar Atividade02
 Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
@@ -226,7 +226,7 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
-## Como utilizar Exemplo-express
+### Como utilizar Exemplo-express
 Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
