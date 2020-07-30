@@ -3,19 +3,19 @@
 
 ---
 
-## **Aula 01**
+## :memo: **Aula 01**
 <h1>
   <img src="https://ik.imagekit.io/xlj9cejf8v/calculoimc_vA36KfVGH.gif" alt="gif referente cálculo imc">
 </h1>
 
-### Sobre Aula01
+### :bookmark: Sobre Aula01
 Este projeto implementa um exemplo simples de uso do [Parcel](https://parceljs.org/) para empacotar HTML, Sass, JavaScript e fontes de texto.
 
 No exemplo, é implementado o cálculo do Índice de Massa Corporal do usuário.
 
 ---
 
-### Tecnologias utilizadas Aula01
+### :rocket: Tecnologias utilizadas Aula01
 
 o projeto foi desenvolvido usando as seguintes tecnologias
 
@@ -28,14 +28,14 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
-### Como utilizar Aula01
+### :electric_plug: Como utilizar Aula01
 Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
 
 ---
 
-### Como rodar o projeto Aula01
+### :file_folder: Como rodar o projeto Aula01
 
 ```bash
 # Clonar repositório
@@ -54,17 +54,17 @@ $ npm run dev
 
 ---
 
-## **Aula 02**
+## :memo: **Aula 02**
 <h1>
   <img src="https://ik.imagekit.io/xlj9cejf8v/Aula02-CPW3_bVXr_XFhj.png" alt="imagem do site">
 </h1>
 
-### Sobre Aula02
+### :bookmark: Sobre Aula02
 Neste projeto, foi utilizado o modelo MVC juntamente com o padrão DAO para realizar as operações no banco de dados.
 
 ---
 
-### Tecnologias utilizadas Aula02
+### :rocket: Tecnologias utilizadas Aula02
 
 o projeto foi desenvolvido usando as seguintes tecnologias
 
@@ -77,14 +77,14 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
-### Como utilizar Aula02
+### :electric_plug: Como utilizar Aula02
 Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
 
 ---
 
-### Como rodar o projeto Aula02
+### :file_folder: Como rodar o projeto Aula02
 
 ```bash
 # Clonar repositório
@@ -103,17 +103,17 @@ $ npm run dev
 
 ---
 
-## **Atividade01**
+## :memo: **Atividade01**
 <h1>
   <img src="https://ik.imagekit.io/xlj9cejf8v/validacao_v4Ux7xA3F.gif" alt="gif referente a atividade01 validação de cpf ou cnpj">
 </h1>
 
-### Sobre Atividade01
+### :bookmark: Sobre Atividade01
 Neste projeto, foi utilizado o modelo MVC, para colocar em prática os conhecimentos aprendido nas aulas.
 
 ---
 
-### Tecnologias utilizadas Atividade01
+### :rocket: Tecnologias utilizadas Atividade01
 
 o projeto foi desenvolvido usando as seguintes tecnologias
 
@@ -126,14 +126,14 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
-### Como utilizar Atividade01
+### :electric_plug: Como utilizar Atividade01
 Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
 
 ---
 
-### Como rodar o projeto Atividade01
+### :file_folder: Como rodar o projeto Atividade01
 
 ```bash
 # Clonar repositório
@@ -152,17 +152,17 @@ $ npm run dev
 
 ---
 
-## **Atividade02**
+## :memo: **Atividade02**
 <h1>
   <img src="https://ik.imagekit.io/xlj9cejf8v/copa_rUXMovEO0.gif" alt="gif referente a atividade02">
 </h1>
 
-### Sobre Atividade02
+### :bookmark: Sobre Atividade02
 Neste projeto, foi utilizado o modelo MVC, para colocar em prática os conhecimentos aprendido nas aulas, utilizando o aquivo db.json, para armazenar meus dados.
 
 ---
 
-### Tecnologias utilizadas Atividade02
+### :rocket: Tecnologias utilizadas Atividade02
 
 o projeto foi desenvolvido usando as seguintes tecnologias
 
@@ -175,14 +175,14 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
-### Como utilizar Atividade02
+### :electric_plug: Como utilizar Atividade02
 Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
 
 ---
 
-### Como rodar o projeto Atividade02
+### :file_folder: Como rodar o projeto Atividade02
 
 ```bash
 # Clonar repositório
@@ -201,17 +201,17 @@ $ npm run dev
 
 ---
 
-## **Exemplo-express**
+## :memo: **Exemplo-express**
 <h1>
   <img src="https://ik.imagekit.io/xlj9cejf8v/loja_2tJa9v5aP.gif" alt="gif referente o exemplo-express">
 </h1>
 
-### Sobre Exemplo-express
+### :bookmark: Sobre Exemplo-express
 Neste projeto, foi utilizado a tecnologia express, para controle de rotas, criamos um servidor, e começamos a trabalhar o padrão MVC novamente. 
 
 ---
 
-### Tecnologias utilizadas Exemplo-express
+### :rocket: Tecnologias utilizadas Exemplo-express
 
 o projeto foi desenvolvido usando as seguintes tecnologias
 
@@ -226,14 +226,14 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
-### Como utilizar Exemplo-express
+### :electric_plug: Como utilizar Exemplo-express
 Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
 
 ---
 
-### Como rodar o projeto Exemplo-express
+### :file_folder: Como rodar o projeto Exemplo-express
 
 ```bash
 # Clonar repositório
@@ -255,4 +255,4 @@ $ npm run sass
 
 ---
 
-Desenvolvido por **Arthur Barros** [Entre em contato](https://www.linkedin.com/in/arthur-barros-/)
+Desenvolvido por :purple_heart: **Arthur Barros** :email: [Entre em contato](https://www.linkedin.com/in/arthur-barros-/)
